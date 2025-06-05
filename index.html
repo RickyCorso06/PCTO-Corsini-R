@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Miei PCTO</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>I Miei PCTO</h1>
+            </div>
+            <nav>
+                <div class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="main-menu">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#chi-sono">Chi Sono</a></li>
+                    <li class="dropdown">
+                        <a href="#pcto">PCTO <span class="dropdown-icon">▼</span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#mast">MAST</a></li>
+                            <li><a href="#gvs">GVS</a></li>
+                            <li><a href="#jma">JMA Wireless</a></li>
+                            <li><a href="#datalogic">Datalogic</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#confronto">Confronto</a></li>
+                    <li><a href="#conclusioni">Conclusioni</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2 class="fade-in">Il mio percorso PCTO</h2>
+                    <p class="fade-in delay-1">Un viaggio attraverso quattro esperienze formative in aziende all'avanguardia</p>
+                    <div class="cta-buttons fade-in delay-2">
+                        <a href="#pcto" class="btn btn-primary">Scopri i PCTO</a>
+                        <a href="#chi-sono" class="btn btn-secondary">Chi sono</a>
+                    </div>
+                </div>
+                <div class="hero-image fade-in delay-3">
+                    <img src="images/datalogic_labs.jpg" alt="Datalogic Labs" class="hero-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- Chi Sono Section -->
+        <section id="chi-sono" class="section">
+            <div class="container">
+                <h2 class="section-title">Chi Sono</h2>
+                <div class="about-content-full">
+                    <div class="about-text-full">
+                        <p>Sono uno studente appassionato di [inserire interessi], attualmente frequentante [inserire scuola e indirizzo]. Durante il mio percorso scolastico, ho avuto l'opportunità di svolgere quattro esperienze PCTO presso aziende leader nei rispettivi settori.</p>
+                        <p>Queste esperienze mi hanno permesso di applicare le conoscenze teoriche acquisite a scuola in contesti lavorativi reali, sviluppando competenze trasversali e professionali che hanno arricchito il mio bagaglio formativo.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PCTO Overview Section -->
+        <section id="pcto" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">I Miei PCTO</h2>
+                <p class="section-intro">Ho avuto l'opportunità di svolgere quattro percorsi PCTO presso aziende leader in settori diversi.</p>
+                
+                <div class="cards-container">
+                    <!-- MAST Card -->
+                    <div class="card fade-in-up">
+                        <div class="card-image">
+                            <img src="images/mast_logo.png" alt="Logo MAST" class="company-logo">
+                        </div>
+                        <div class="card-content">
+                            <h3>MAST</h3>
+                            <p>Fondazione internazionale, culturale e filantropica, basata sulla Tecnologia, l'Arte e l'Innovazione.</p>
+                            <a href="#mast" class="btn btn-outline">Scopri di più</a>
+                        </div>
+                    </div>
+
+                    <!-- GVS Card -->
+                    <div class="card fade-in-up delay-1">
+                        <div class="card-image">
+                            <img src="images/gvs_logo_new.png" alt="Logo GVS" class="company-logo">
+                        </div>
+                        <div class="card-content">
+                            <h3>GVS</h3>
+                            <p>Gruppo globale che fornisce soluzioni di filtrazione altamente tecnologiche per diversi settori industriali.</p>
+                            <a href="#gvs" class="btn btn-outline">Scopri di più</a>
+                        </div>
+                    </div>
+
+                    <!-- JMA Card -->
+                    <div class="card fade-in-up delay-2">
+                        <div class="card-image">
+                            <img src="images/jma_logo_new.png" alt="Logo JMA Wireless" class="company-logo">
+                        </div>
+                        <div class="card-content">
+                            <h3>JMA Wireless</h3>
+                            <p>Leader nel campo delle telecomunicazioni mobili, sviluppa sistemi avanzati di comunicazione 4G e 5G.</p>
+                            <a href="#jma" class="btn btn-outline">Scopri di più</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Datalogic Card -->
+                    <div class="card fade-in-up delay-3">
+                        <div class="card-image">
+                            <img src="images/datalogic_logo.png" alt="Logo Datalogic" class="company-logo">
+                        </div>
+                        <div class="card-content">
+                            <h3>Datalogic</h3>
+                            <p>Leader globale nell'acquisizione automatica dei dati e nell'automazione industriale, specializzata in lettori di codici a barre e sensori.</p>
+                            <a href="#datalogic" class="btn btn-outline">Scopri di più</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MAST Section -->
+        <section id="mast" class="section company-section">
+            <div class="container">
+                <h2 class="section-title">PCTO presso MAST</h2>
+                <div class="company-intro">
+                    <div class="company-image">
+                        <img src="images/mast_logo.png" alt="Logo MAST" class="company-logo-large">
+                    </div>
+                    <div class="company-info">
+                        <h3>Fondazione MAST</h3>
+                        <p>Nata a Bologna nel 2013, la Fondazione MAST è un'istituzione internazionale, culturale e filantropica, basata sulla Tecnologia, l'Arte e l'Innovazione.</p>
+                        <ul class="company-details">
+                            <li><strong>Sede:</strong> Via Speranza, 42, 40133 Bologna</li>
+                            <li><strong>Focus:</strong> Tecnologia, Arte e Innovazione</li>
+                            <li><strong>Motto:</strong> "Fare del lavoro una cultura e della cultura un lavoro"</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="pcto-experience">
+                    <h3>La mia esperienza</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Attività svolte</h4>
+                                <p>[Descrizione delle attività svolte durante il PCTO presso MAST]</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Competenze acquisite</h4>
+                                <p>[Descrizione delle competenze acquisite durante il PCTO presso MAST]</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Riflessioni personali</h4>
+                                <p>[Riflessioni personali sull'esperienza PCTO presso MAST]</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- GVS Section -->
+        <section id="gvs" class="section company-section bg-light">
+            <div class="container">
+                <h2 class="section-title">PCTO presso GVS</h2>
+                <div class="company-intro">
+                    <div class="company-image">
+                        <img src="images/gvs_logo_new.png" alt="Logo GVS" class="company-logo-large">
+                    </div>
+                    <div class="company-info">
+                        <h3>GVS Filter Technology</h3>
+                        <p>In oltre 40 anni di storia, GVS si è trasformata da fornitore di componenti per il settore della sanità a Gruppo globale che fornisce soluzioni di filtrazione altamente tecnologiche.</p>
+                        <ul class="company-details">
+                            <li><strong>Sede Corporate:</strong> Bologna, Italia</li>
+                            <li><strong>Presenza globale:</strong> 19 stabilimenti in Italia, Regno Unito, Brasile, Stati Uniti, Cina, Messico, Romania e Puerto Rico</li>
+                            <li><strong>Motto:</strong> "We Make It Happen"</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="pcto-experience">
+                    <h3>La mia esperienza</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Attività svolte</h4>
+                                <p>[Descrizione delle attività svolte durante il PCTO presso GVS]</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Competenze acquisite</h4>
+                                <p>[Descrizione delle competenze acquisite durante il PCTO presso GVS]</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Riflessioni personali</h4>
+                                <p>[Riflessioni personali sull'esperienza PCTO presso GVS]</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- JMA Section -->
+        <section id="jma" class="section company-section">
+            <div class="container">
+                <h2 class="section-title">PCTO presso JMA Wireless</h2>
+                <div class="company-intro">
+                    <div class="company-image">
+                        <img src="images/jma_logo_new.png" alt="Logo JMA Wireless" class="company-logo-large">
+                    </div>
+                    <div class="company-info">
+                        <h3>JMA Wireless</h3>
+                        <p>JMA Wireless, leader nel campo delle telecomunicazioni mobili, è presente in Italia con la ragione sociale TEKO Telecom S.r.l., con sede principale a Castel San Pietro Terme (BO).</p>
+                        <ul class="company-details">
+                            <li><strong>Sede principale:</strong> Castel San Pietro Terme (BO) - Bologna Technology Center</li>
+                            <li><strong>Sede secondaria:</strong> Milano (vicino Piazza Gae Aulenti)</li>
+                            <li><strong>Slogan:</strong> "Different By Design™"</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="pcto-experience">
+                    <h3>La mia esperienza</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Attività svolte</h4>
+                                <p>[Descrizione delle attività svolte durante il PCTO presso JMA Wireless]</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Competenze acquisite</h4>
+                                <p>[Descrizione delle competenze acquisite durante il PCTO presso JMA Wireless]</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Riflessioni personali</h4>
+                                <p>[Riflessioni personali sull'esperienza PCTO presso JMA Wireless]</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Datalogic Section -->
+        <section id="datalogic" class="section company-section bg-light">
+            <div class="container">
+                <h2 class="section-title">PCTO presso Datalogic</h2>
+                <div class="company-intro">
+                    <div class="company-image">
+                        <img src="images/datalogic_logo.png" alt="Logo Datalogic" class="company-logo-large">
+                    </div>
+                    <div class="company-info">
+                        <h3>Datalogic Group</h3>
+                        <p>Datalogic è un leader globale nel campo della tecnologia di acquisizione automatica dei dati e dell'automazione industriale, specializzato nella progettazione e produzione di lettori di codici a barre, computer mobili, sensori e sistemi di visione artificiale.</p>
+                        <ul class="company-details">
+                            <li><strong>Sede principale:</strong> Bologna, Italia</li>
+                            <li><strong>Presenza globale:</strong> 27 uffici con circa 2.751 dipendenti in tutto il mondo</li>
+                            <li><strong>Storia:</strong> Oltre 50 anni di innovazione con circa 1.200 brevetti</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="pcto-experience">
+                    <h3>La mia esperienza</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Attività svolte</h4>
+                                <p>[Descrizione delle attività svolte durante il PCTO presso Datalogic]</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Competenze acquisite</h4>
+                                <p>[Descrizione delle competenze acquisite durante il PCTO presso Datalogic]</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Riflessioni personali</h4>
+                                <p>[Riflessioni personali sull'esperienza PCTO presso Datalogic]</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Confronto Section -->
+        <section id="confronto" class="section">
+            <div class="container">
+                <h2 class="section-title">Confronto delle esperienze</h2>
+                <p class="section-intro">Un'analisi comparativa delle quattro esperienze PCTO, evidenziando similitudini e differenze.</p>
+                
+                <div class="comparison-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Aspetto</th>
+                                <th>MAST</th>
+                                <th>GVS</th>
+                                <th>JMA Wireless</th>
+                                <th>Datalogic</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Settore</td>
+                                <td>Culturale e filantropico</td>
+                                <td>Industriale (filtrazione)</td>
+                                <td>Tecnologico (telecomunicazioni)</td>
+                                <td>Tecnologico (automazione e acquisizione dati)</td>
+                            </tr>
+                            <tr>
+                                <td>Competenze sviluppate</td>
+                                <td>[Competenze MAST]</td>
+                                <td>[Competenze GVS]</td>
+                                <td>[Competenze JMA]</td>
+                                <td>[Competenze Datalogic]</td>
+                            </tr>
+                            <tr>
+                                <td>Ambiente di lavoro</td>
+                                <td>[Ambiente MAST]</td>
+                                <td>[Ambiente GVS]</td>
+                                <td>[Ambiente JMA]</td>
+                                <td>[Ambiente Datalogic]</td>
+                            </tr>
+                            <tr>
+                                <td>Aspetti più formativi</td>
+                                <td>[Aspetti MAST]</td>
+                                <td>[Aspetti GVS]</td>
+                                <td>[Aspetti JMA]</td>
+                                <td>[Aspetti Datalogic]</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Conclusioni Section -->
+        <section id="conclusioni" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">Conclusioni</h2>
+                <div class="conclusions-content">
+                    <p>Le quattro esperienze PCTO mi hanno permesso di esplorare diversi settori professionali e di acquisire competenze trasversali fondamentali per il mio futuro.</p>
+                    <p>Ho potuto confrontarmi con realtà lavorative diverse, comprendendo meglio le dinamiche aziendali e sviluppando una maggiore consapevolezza delle mie attitudini e dei miei interessi professionali.</p>
+                    <p>Queste esperienze hanno rappresentato un importante complemento al mio percorso scolastico, permettendomi di mettere in pratica le conoscenze teoriche acquisite e di sviluppare nuove competenze in contesti reali.</p>
+                    <div class="skills-gained">
+                        <h3>Competenze trasversali acquisite</h3>
+                        <div class="skills-container">
+                            <div class="skill-item">Lavoro in team</div>
+                            <div class="skill-item">Problem solving</div>
+                            <div class="skill-item">Comunicazione efficace</div>
+                            <div class="skill-item">Gestione del tempo</div>
+                            <div class="skill-item">Adattabilità</div>
+                            <div class="skill-item">Pensiero critico</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>I Miei PCTO</h3>
+                    <p>Un viaggio attraverso quattro esperienze formative</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigazione</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#chi-sono">Chi Sono</a></li>
+                        <li><a href="#pcto">PCTO</a></li>
+                        <li><a href="#confronto">Confronto</a></li>
+                        <li><a href="#conclusioni">Conclusioni</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contatti</h4>
+                    <p>Email: [tua email]</p>
+                    <p>Scuola: [nome della tua scuola]</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 I Miei PCTO. Tutti i diritti riservati.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
